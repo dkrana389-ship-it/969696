@@ -1,0 +1,13 @@
+<resources>
+    <style name="Theme.Focus" parent="android:Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowBackground">@color/focus_bg</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:colorAccent">@color/focus_orange</item>
+    </style>
+
+    <style name="Theme.Focus.Popup" parent="Theme.Focus">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>
